@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1, h2, h3 {
+    font-family: "Poetsen One", sans-serif;
+}
+
+p {
+    font-family: "Noto Sans", sans-serif;
+    color: #4f4f4f;
+}
+
+strong {
+    background-color: #ffff39;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+.titulo {
+    height: 85vh;
+    border-bottom: solid 1px #dbdbdb;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    box-shadow: 1px 10px 30px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Fundo.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 48px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    max-width: 700px;
+    border-bottom: solid 5px black;
+    line-height: 70px;
+}
+
+.titulo h1 strong {
+    padding: 7px 30px;
+    margin-bottom: 10px;
+}
+
+.titulo p {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+main .sobre {
+    border-bottom: solid 1px #dbdbdb;
+}
+
+main .sobre h2 {
+    font-size: 180%;
+    margin-bottom: 40px;
+}
+
+main .sobre p {
+    font-size: 135%;
+    margin: 20px 0;
+}
+
+main .dicas div {
+    margin: 70px 0;
+}
+
+main .dicas h1 {
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+main .dicas h3 {
+    font-size: 170%;
+    margin: 20px 0;
+}
+
+main .dicas h3 strong {
+    margin-right: 15px;
+    border: solid 3px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+main .dicas p {
+    font-size: 130%;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #eb9ce8;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 1px -1px 20px black;
+}
